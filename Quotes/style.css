@@ -1,0 +1,35 @@
+body{
+    background-color: steelblue;
+}
+
+.container{
+    border:1px solid black;
+
+    width: 80%;
+    height: 100vh;
+    display: flex;
+
+}
+
+.quotes{
+    border: 1px solid black;
+    width: 900px;
+    height: 450px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0 50px;
+    color:black;
+    background-color: royalblue;
+    border: 10px solid gray;
+}
+
+.quotes p{
+    font-size: 1.5rem;
+}
+
+.quotes h3{
+    font-size:1.5rem;
+}
